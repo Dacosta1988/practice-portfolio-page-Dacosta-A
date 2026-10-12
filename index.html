@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dacosta's student web development portfolio">
+  <title>Dacosta | Web Development Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top">Dacosta</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro" aria-labelledby="intro-heading">
+      <div class="intro-copy">
+        <p class="eyebrow">Web Development Student</p>
+        <h1 id="intro-heading">Learning to build useful experiences for the web.</h1>
+        <p>I am developing my skills in HTML, CSS, JavaScript, testing, and Git through hands-on projects.</p>
+        <a class="primary-link" href="#contact">Contact me</a>
+      </div>
+      <img
+        class="profile-image"
+        src="https://github.com/Dacosta1988.png"
+        alt="Dacosta's GitHub profile picture"
+      >
+    </section>
+
+    <section id="about" class="content-section" aria-labelledby="about-heading">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2 id="about-heading">About Me</h2>
+      </div>
+      <div>
+        <p>I am a software development student who enjoys learning how different parts of an application work together. I have practiced writing JavaScript modules, unit tests, and collaborative Git workflows.</p>
+        <p>My goal is to keep improving through small projects, careful testing, and feedback from other developers.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="content-section" aria-labelledby="skills-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Capabilities</p>
+        <h2 id="skills-heading">Skills and Tools</h2>
+      </div>
+      <div class="table-wrapper">
+        <table>
+          <caption>Current skills and proficiency levels</caption>
+          <thead>
+            <tr>
+              <th scope="col">Skill or Tool</th>
+              <th scope="col">Proficiency</th>
+              <th scope="col">Experience</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Developing</td>
+              <td>Semantic pages, forms, and tables</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Developing</td>
+              <td>Responsive layouts and visual styling</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Developing</td>
+              <td>Functions, modules, and Jest tests</td>
+            </tr>
+            <tr>
+              <td>Git and GitHub</td>
+              <td>Developing</td>
+              <td>Branches, commits, pushes, and pull requests</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section" aria-labelledby="contact-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-heading">Send a Message</h2>
+        <p>Use this practice form to get in touch.</p>
+      </div>
+      <form action="#" method="post">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form-field full-width">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Dacosta. Built while learning HTML and CSS.</p>
+    <a href="https://github.com/Dacosta1988">View GitHub profile</a>
+  </footer>
+</body>
+</html>
