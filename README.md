@@ -11,3 +11,9 @@ A static portfolio page created to practice semantic HTML, tables, forms, and re
 - Additional headings, paragraphs, links, lists, and an image
 
 Open `index.html` in a browser to view the page.
+
+## Profile Page
+
+The Lesson 3 profile page is available in `profile.html` and uses the external
+stylesheet `profile.css`. It includes a header and tagline, a profile picture,
+an About Me section, a skills list, and a footer with a GitHub profile link.
